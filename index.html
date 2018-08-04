@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+<head>
+    <meta charset="UTF-8">
+    <title>sanju</title>
+</head>
+<body>
+
+here comes the content
+
+</body>
+</html>
+
+<script>
+    window.initTemp = function(){ sdk.init({ token : 15 });};
+    (function(d, s, id){
+        var fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = 'http://192.168.2.76:5005/template.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'temp_panel'));
+</script>
+
+
+
